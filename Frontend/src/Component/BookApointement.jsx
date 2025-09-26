@@ -383,7 +383,7 @@ export default function CallbackModal({ classes }) {
         >
           <div
             className="bg-white mx-2 rounded-lg shadow-lg w-full max-w-2xl p-6 relative"
-            onClick={(e) => e.stopPropagation()} // Click inside content does NOT close modal
+            onClick={(e) => e.stopPropagation()} // Click inside content does NOT close moda
           >
             {/* Close button */}
             <button
